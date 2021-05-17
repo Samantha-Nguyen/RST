@@ -15,12 +15,12 @@
 }
 
 @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #title1 {
@@ -75,7 +75,7 @@ div {
   font-family: 'Comfortaa', cursive;
 }
 
-input[type = text], select {
+input[type=text] {
   width: 400px;
   padding: 7px;
   margin: 10px 0 10px 10px;

@@ -8,5 +8,5 @@ function play () {
 }
 
 function enter () {
-  document.body.style.backgroundColor = "#39f"
+  document.body.style.backgroundColor = '#39f'
 }
