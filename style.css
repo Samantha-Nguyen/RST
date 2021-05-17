@@ -1,0 +1,124 @@
+* {
+  text-align: center;
+  color: #fff;
+}
+
+/* I added an image I made from MS Paint as a background and the animation attribute makes the page content fade in when the page is loaded */
+#body {
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+#title1 {
+  font-size: 80px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-family: 'Monoton', cursive;
+}
+
+#description1 {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#start {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Comfortaa', cursive;
+}
+
+#start:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* this div element is to make sure the webpage content is centered even after resizing the window browser */
+div {
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* THIS IS THE BEGINNING OF MY STYLE.CSS FOR INDEX2.HTML */
+
+#title2 {
+  font-size: 80px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-family: 'Monoton', cursive;
+}
+
+#description2 {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+input[type = text], select {
+  width: 400px;
+  padding: 7px;
+  margin: 10px 0 10px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#label1 {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#player1 {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  color: #39f;
+}
+
+#label2 {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#player2 {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  color: #f00;
+}
+
+#enter {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Comfortaa', cursive;
+}
+
+#enter:hover {
+  background-color: #fff;
+  color: #000;
+}
