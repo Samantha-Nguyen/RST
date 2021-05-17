@@ -14,13 +14,26 @@
     <link href = "https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel = "stylesheet">
     <title>Tic-Tac-Toe</title>
   </head>
-  <body id = "body">
-    <div>
-    <p id = "title1">TIC-TAC-TOE</p>
-    <p id = "description1">Get three in a row to win. It can be horizontally, vertically or diagonally. Click start to begin a <b>multiplayer</b> game with someone in the room.</p>
-    <br>
-    <button id = "start" onclick = "document.location='index2.html'">START</button>
-    </div>
+  <body id = "background">
+    <p id = "turn">Your turn,</p>
+    <button id = "again">PLAY AGAIN</button>
+    <table>
+      <tr>
+        <td></td>
+        <td class = "vertical"> </td>
+        <td>  </td>
+      </tr>
+      <tr>
+        <td class = "horizontal"> </td>
+        <td class = "vertical horizontal">  </td>
+        <td class = "horizontal"></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td class = "vertical">  </td>
+        <td> </td>
+      </tr>
+    </table>
     <script src = "script.js"></script>
   </body>
 </html>

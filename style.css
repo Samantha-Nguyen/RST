@@ -18,6 +18,7 @@
   0% {
     opacity: 0;
   }
+  
   100% {
     opacity: 1;
   }
@@ -51,7 +52,7 @@
   color: #000;
 }
 
-/* this div element is to make sure the webpage content is centered even after resizing the window browser */
+/* This div element is to make sure the webpage content is centered even after resizing the window browser */
 div {
   background: transparent;
   position: absolute;
@@ -121,4 +122,80 @@ input[type=text] {
 #enter:hover {
   background-color: #fff;
   color: #000;
+}
+
+
+/* THIS IS THE BEGINNING OF MY STYLE.CSS FOR INDEX3.HTML */
+
+#background {
+  background-color: #39f;
+}
+
+#turn {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#again {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-bottom: 70px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Comfortaa', cursive;
+}
+
+#again:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.vertical {
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.horizontal {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+td {
+  width: 150px;
+  height: 150px;
+  font-size: 45px;
+}
+
+table {
+  padding-left: 35%;
+  padding-right: 35%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.xwin {
+  color: #fff;
+  background: #f00;
+  transition: all 0.8s;
+}
+
+.owin {
+  color: #fff;
+  background: #39f;
+  transition: all 0.8s;
+}
+
+.xboxred {
+  background-color: #f00;
+  transition: all 1s;
+}
+
+.oboxblue {
+  background-color: #39f;
+  transition: all 1s;
 }
