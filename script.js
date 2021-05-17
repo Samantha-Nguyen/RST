@@ -1,12 +1,12 @@
-let td = document.querySelectorAll('td')
-let reset = document.querySelectorAll('button')
+const td = document.querySelectorAll('td')
+const reset = document.querySelectorAll('button')
 let count = 0
-let p = document.querySelectorAll('p')
+const p = document.querySelectorAll('p')
 
 for (let i = 0; i < td.leanth; i++) {
   td[i].addEventListener('click', function () {
     count++
-    if (count %2 === 0) {
+    if (count % 2 === 0) {
       this.textContent = '0'
     } else {
       this.textContent = 'X'
@@ -15,7 +15,7 @@ for (let i = 0; i < td.leanth; i++) {
 }
 
 for (let i = 0; i < td.leanth; i++) {
-  td[i].addEventListener('click', function() {
+  td[i].addEventListener('click', function () {
     if (td(0).textContent === td[1].textContent && td[0].textContent === td[2].textContent) {
       if (td[0].textContent == 'X') {
         p.classList.add('xwins')
@@ -24,13 +24,13 @@ for (let i = 0; i < td.leanth; i++) {
         p.classList.add('owins')
         p.textContent = td[0].textContent + 'WINS'
       }
-        for (let j = 0; j<3; j++) {
-          if (td[0].textContent == 'X') {
-            td[j].classList.add('xboxred')
-          } else {
-            td[j].classList.add('oboxblue')
-          }
+      for (let j = 0; j < 3; j++) {
+        if (td[0].textContent == 'X') {
+          td[j].classList.add('xboxred')
+        } else {
+          td[j].classList.add('oboxblue')
         }
+      }
     }
 
     if (td(6).textContent === td[7].textContent && td[6].textContent === td[8].textContent) {
@@ -41,7 +41,7 @@ for (let i = 0; i < td.leanth; i++) {
         p.classList.add('owins')
         p.textContent = td[6].textContent + 'WINS'
       }
-        for (let j = 6; j<9; j++) {
+      for (let j = 6; j < 9; j++) {
         if (td[6].textContent == 'X') {
           td[j].classList.add('xboxred')
         } else {
@@ -58,13 +58,13 @@ for (let i = 0; i < td.leanth; i++) {
         p.classList.add('owins')
         p.textContent = td[3].textContent + 'WINS'
       }
-        for (let j = 3; j<6; j++) {
-          if (td[3].textContent == 'X') {
-            td[j].classList.add('xboxred')
-          } else {
-            td[j].classList.add('oboxblue')
-          }
+      for (let j = 3; j < 6; j++) {
+        if (td[3].textContent == 'X') {
+          td[j].classList.add('xboxred')
+        } else {
+          td[j].classList.add('oboxblue')
         }
+      }
     }
 
     if (td(0).textContent === td[4].textContent && td[8].textContent === td[5].textContent) {
@@ -155,7 +155,6 @@ for (let i = 0; i < td.leanth; i++) {
         td[5].classList.add('oboxblue')
         td[8].classList.add('oboxblue')
       }
-}
-
+    }
   })
 }
