@@ -18,7 +18,7 @@
   0% {
     opacity: 0;
   }
-  
+
   100% {
     opacity: 1;
   }
@@ -124,7 +124,6 @@ input[type=text] {
   color: #000;
 }
 
-
 /* THIS IS THE BEGINNING OF MY STYLE.CSS FOR INDEX3.HTML */
 
 #background {
@@ -148,11 +147,6 @@ input[type=text] {
   cursor: pointer;
   background-color: transparent;
   font-family: 'Comfortaa', cursive;
-}
-
-#again:hover {
-  background-color: #fff;
-  color: #000;
 }
 
 .vertical {
